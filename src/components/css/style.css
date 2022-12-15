@@ -1,0 +1,177 @@
+body{
+    background-color:#4e5969;
+}
+
+.navbar{
+  background-color: rgb(60 70 86);;
+  color: white;
+}
+.card {
+  background-color: #2d3135;
+  z-index: 10;
+  display: block;
+  margin: auto;
+  width: 90%;
+  color: white;
+  margin-top: 20px;
+}
+
+.card2 {
+  background-color: #36393d;
+  color: white;
+  margin: 20px;
+}
+
+.card3 {
+  display: flex;
+  color: white;
+}
+
+.time {
+  position: absolute;
+  right: 250px;
+}
+
+#dashboard, .body, #modalHeading{
+  font-family:'Times New Roman', Times, serif;
+}
+
+.venue{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  margin: 5px;
+  color: black;
+}
+
+.date {
+  padding: 20px;
+}
+
+.clubName {
+  padding-left: 5px;
+  padding-top: 10px;
+}
+
+#logo {
+  height: 60px;
+  width: 150px;
+}
+
+#dashboard {
+  font-size: 30px;
+  font-weight: bolder;
+  position: absolute;
+  width: 721px;
+  height: 114px;
+  left: 580px;
+  top: 15px;
+}
+
+.btn{
+    margin: 5px;
+}
+
+.modalBackground {
+  width: 110%;
+  height: 110%;
+  background: rgba(200, 200, 200);
+  position:absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 12;
+}
+
+
+.modalContainer {
+  width: 700px;
+  height: 600px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.modalContainer .title {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.titleCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.modalContainer .body {
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.modalContainer .footer {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer .footer button {
+  width: 150px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#cancelBtn {
+  background-color: crimson;
+}
+
+#continueBtn{
+  background-color: rgb(2, 77, 54);
+}
+
+.openModalBtn{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 35px;
+  width: 100px;
+}
+
+.openModalBtn:hover{
+  cursor: pointer;
+  background-color: aqua;
+  transform :translateY(-2px);
+}
+
+input{
+  margin: 20px;
+}

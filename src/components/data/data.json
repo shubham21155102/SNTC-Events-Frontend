@@ -1,0 +1,35 @@
+{   
+    "15_december_2022" :[
+        {    
+            "id" : "1",
+            "clubName" : "COPS",
+            "clubImage" : "../components/images/cops.png",
+            "workshop" : "GSOC",
+            "time" : "6-7 P.M.",
+            "venue" : "Swatantra Bhawan"
+            
+        },
+        {    
+            "id" : "1",
+            "clubName" : "Robotics",
+            "clubImage" : "../components/images/cops.png",
+            "workshop" : "GSOC",
+            "time" : "6-7 P.M.",
+            "venue" : "Swatantra Bhawan"
+            
+        }],
+        "16th December 2022":[
+            {    
+            "id" : "1",
+            "clubName" : "CSI",
+            "clubImage" : "../components/images/cops.png",
+            "workshop" : "GSOC",
+            "time" : "6-7 P.M.",
+            "venue" : "Swatantra Bhawan"
+            
+        }
+        ]
+        
+    
+    
+}
