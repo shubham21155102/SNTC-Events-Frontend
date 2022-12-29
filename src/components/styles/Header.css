@@ -1,5 +1,5 @@
 body{
-    background-color: #2D3135;;
+    background-color: #444349;;
 }
 .logoSNTC{
 position: absolute;
@@ -7,6 +7,7 @@ left: 10px;
 right: 0%;
 top: 10px;
 bottom: 0%;
-width: 175 px;
+/* width: 175 px; */
+width: 10%;
 height: 90 px;
 }
